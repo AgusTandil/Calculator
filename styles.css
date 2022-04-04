@@ -1,0 +1,51 @@
+#app {
+    height: 420px;
+    width: 300px;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#app form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#app input[type = "textfield"] {
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    font-family: "roboto", "sans-serif";
+    background-color:black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size:50px;
+    border: 0;
+    outline: none;
+}
+
+#app input[type = "button"] , input[type ="reset"] {
+    width: 22%;
+    cursor: pointer;
+    font-family: "roboto", "sans-serif";
+    font-weight: bold;
+    font-size:26px;
+    color: black;
+    padding:18px;
+    margin: 3px;
+    border:0;
+    border-radius: 100%;
+}
+
+#app .orange {
+    background-color: orange;
+    color:white !important;
+}
+
+#app .gray {
+    background-color: gray;
+    color:white !important;
+}
